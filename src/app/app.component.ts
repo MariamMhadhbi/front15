@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Authentification';
+  isClosed = false;
+
+  toggleSidebar() {
+    this.isClosed = !this.isClosed;
+  }
 }
